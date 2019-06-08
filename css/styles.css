@@ -1,0 +1,138 @@
+/*************************************************************/
+/************************ GENERAL ****************************/
+/*************************************************************/
+a[aria-label="GitHub"]{
+	padding: 0px;
+}
+svg { 
+	max-width: 40px;
+}
+.fa {
+	padding: 5px;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 5px 10px;
+}
+
+/*************************************************************/
+/************************ PROJECT ****************************/
+/*************************************************************/
+
+.project {
+	margin-top: 10px;
+}
+.project .project-head{
+	padding: 10px;
+}
+.project .project-head .name {
+	color: #FFF;
+	background-color: #343a40;
+	padding: 5px;
+	padding-left: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.project .project-head .project-right{
+	padding-left: 0px;
+}
+.project .project-head .date {
+	color: #FFF;
+	background-color: #343a40;
+	line-height: 34px;
+	padding: 6.2px;
+	padding-right: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: dashed #DDD
+}
+.project .project-head .team {
+	padding-left: 10px;
+}
+.project .project-head .context {
+	
+}
+.project .project-body .description {
+	padding-top: 1rem;
+	border : solid #343a40;
+}
+.project .project-footer .links {
+	width: 100%;
+	text-align: right;
+}
+/* PROJECT TOOLTIP */
+.project .project-head .team .tooltip {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  width: 200px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 33%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+/* Tooltip arrow */
+.project .project-head .team .tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.project .project-head .team:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*************************************************************/
+/************************ STUDIES ****************************/
+/*************************************************************/
+
+.study {
+	margin-top: 10px;
+}
+.study .study-head{
+	padding: 10px;
+}
+.study .study-head .name {
+	color: #FFF;
+	background-color: #343a40;
+	padding: 5px;
+	padding-left: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.study .study-head .study-right{
+	padding-left: 0px;
+}
+.study .study-head .date {
+	color: #FFF;
+	background-color: #343a40;
+	line-height: 34px;
+	padding: 6.2px;
+	padding-right: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-left: dashed #DDD
+}
+.study .study-body .description {
+	padding-top: 1rem;
+	border : solid #343a40;
+}
+.study .study-footer .links {
+	width: 100%;
+	text-align: right;
+}
