@@ -1,0 +1,14 @@
+# main links links
+main:
+  - title: "Studies"
+    url: /studies/
+
+  - title: "Projects"
+    url: /portfolio/    
+
+  - title: "Publications"
+    url: /publications/    
+    
+  - title: "CV"
+    url: /cv/
+
