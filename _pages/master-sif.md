@@ -40,7 +40,7 @@ The CONF(conference) course is a cycle of presentations, which provide an overvi
 The BIBL(Bibliography) course is a part of our internship work. 
 From mid-october to later january we had to read a lot of articles related to our internship subject and produce a report of our reading.
 My subject was "Self-adaptable virtual machines", the goal of this intership was to design a new pattern for language interpretation with
-an explicit feedback loop inspired from Dynamic Adaptative Systems(DAS). You can find this bibliography at <a href="#">Not finished yet</a>.
+an explicit feedback loop inspired from Dynamic Adaptative Systems(DAS). You can find this bibliography <a href="{{ site.baseurl }}/files/Self_Adaptable_Virtual_Machines.pdf">here</a>.
 </p>
 
 ### COLQ

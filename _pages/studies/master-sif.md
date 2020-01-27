@@ -1,5 +1,5 @@
 ---
-permalink: /studies/master-sif
+permalink: /studie/master-sif
 title: ""
 excerpt: "Master 2 SIF - Research master in computer science at ISTIC, Rennes"
 author_profile: true
